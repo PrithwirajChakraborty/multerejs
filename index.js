@@ -5,7 +5,7 @@ var fs = require("fs");
 var path = require("path");
 
 mongoose.connect(
-    "mongodb+srv://user:123@cluster0.j6jrw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "",
   { useNewUrlParser: true, useUnifiedTopology: true },
   (err) => {
     console.log("connected");
